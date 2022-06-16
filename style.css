@@ -34,7 +34,6 @@ body
 background-position: center;
   background-repeat: no-repeat; 
   background-size: cover;
-	 background-color: white;
 }
 
 h2 {
@@ -64,17 +63,17 @@ h2 {
 	 text-decoration: line-through;
 }
  .card .text-container #head {
-	 font-family: 'Oswald', sans-serif;
+	 font-family: 'Nanum Myeongjo', serif;
 	 font-size: 1.5em;
 	 margin: 60px auto 60px auto;
 }
  .card p {
 	 font-size: 1.1em;
 	 line-height: 1.4;
-	 font-family: 'Oswald', sans-serif;
+	 font-family: 'Nanum Myeongjo', serif;
    font-weight: 400;
 	 color: #331717;
-	 
+	 top: 20%;
 	 margin: 30px auto 0px auto;
 }
  .card .front {
@@ -114,7 +113,7 @@ background-size: 150%;
 	 transform-origin: 0% 50%;
 	 transform: perspective(800px) rotateY(0deg);
 	 transition: all 0.8s ease-in-out;
-	 background-color: #e6f0e6;
+	 background-color: #ecba9e;
 	 box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
 }
 
