@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=La+Belle+Aurore&family=Oswald:wght@200&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=La+Belle+Aurore&family=Nanum+Myeongjo&family=Oswald:wght@200&family=Playfair+Display&display=swap');
+
 body
 {
-  background-color: black;
-  background-image: url(https://media.idownloadblog.com/wp-content/uploads/2019/01/Gradient-V16-pink-purple-true-black-gradient-wallpaper-iphone-ar72014.png);
+  background-color: #5a464c;
   background-size: cover; 
   background-position-y:  30%;
   height: 100%;
@@ -12,12 +12,25 @@ body
     background-attachment: fixed;
 }
 
+.bourbon {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	position: absolute;
+	align-content: center;
+
+
+}
+
 .card {
 	 position: relative;
+	 
 	 width: 500px;
 	 height: 725px;
 	 border: 10px solid transparent;
 	 margin: 0px auto 0 auto;
+	 background-color: #ECBA9E;
 background-position: center;
   background-repeat: no-repeat; 
   background-size: cover;
@@ -25,11 +38,12 @@ background-position: center;
 }
 
 h2 {
-  font-family:'Oswald', sans-serif ;
+  font-family:'Nanum Myeongjo', serif ;
   font-weight: 600;
   font-size: 3em;
   color:white;
  text-align: center;
+ bottom: 100%;
 }
 
 .front1 {
@@ -68,9 +82,8 @@ h2 {
 	 width: 100%;
 	 height: 100%;
 	 backface-visibility: hidden;
-	 background-color:white;
+	 background-color:#ECBA9E;
    background-repeat: no-repeat;
-   background-image: url("https://media.pitchfork.com/photos/5fb29ebea470daa51dd9e3a2/1:1/w_1425,h_1425,c_limit/Pluto%20x%20Baby%20Pluto_Future%20&%20Lil%20Uzi%20Vert.jpg");
 background-position: center;
 background-size: 150%;
 	 transform-style: preserve-3d;
@@ -80,13 +93,14 @@ background-size: 150%;
 }
  .card:hover .front {
 	 transform: perspective(800px) rotateY(-170deg);
-   background-image: url("https://lh3.googleusercontent.com/Jyj0V6P--eGSJSYVZEopexCJHjB_BfCaFiZ_CtMPiXLrQyhwiIPQi6IR5os7-oZXKqs5ZcmCv4sCVy-ZPX7CMex8CH8bkGWAF8c9pXqdwY2mOk-n8hwWAXv2OSvSc-wJqTEPLdAimmuXtcF4KU7_6B3gvVoUS5aWktUKPvzWZ1aGO-G4NNMRdclvwnshcI_J4ldRiTDFWTSs3ryV_3OvT2h3nEJNU7SJuBmO4S-cwiXla4CqEdm964y3LMm89iQponpkKAMiv8_QhOl4EwXBa1TTx9IU6MkO-9ceSVEUJRQXy2WlRYLi_VdqLrFBkrBoQmyINWiaNuUq-2GxkTejTUoJxHgoUN3y5h5-KcfXGI5oMcbyDZ0ZAmGrjlv3L_2RLRU5ds0xTyRyWENzO04HzMMTqqOT_nXT9ob_LVS3O3cQ6swOZo02fccrFdv9pD0IGZr0Fxi-g4Bcoe9XIEtTfCgKhdZI1WoV8wcMx8cBDL0op0KlbPf8py8Hy6vkyn8N5kRquQ079tfcsaRbRWeS3i46pA9WmwkRxE7r2yeHenC2h1ufpIeeTs2W1ArggTj_e2S1WrE1D_PZQpBducK7cSTdiJ7VIg1ROMEKgLyn6RL-MMoxDWrOTupTbry5tDPadNNdSgo6UBlHuSzjI36gKK_N-I51-nfZ2-SKOGwebp8qJdc6M-mCmD6d_srNnJTIu4wd4kaBudRXUG0L_tMKG4cSPiPIvTwtIPKLzka0Af9AUTKKTaoUlgXAcE3pQQ=w684-h912-no?authuser=0");
+   background-image: url('/images/IMG_8029.JPG');
 }
  .card:hover .back {
 	 transform: perspective(800px) rotateY(-170deg);
 	 box-shadow: 7px 0px 5px 0px rgba(0, 0, 0, 0.3), inset 2px 0px 15px 0px rgba(0, 0, 0, 0.1);
-	 background-position: 75% 25%;
-   background-image: url(https://lh3.googleusercontent.com/Jyj0V6P--eGSJSYVZEopexCJHjB_BfCaFiZ_CtMPiXLrQyhwiIPQi6IR5os7-oZXKqs5ZcmCv4sCVy-ZPX7CMex8CH8bkGWAF8c9pXqdwY2mOk-n8hwWAXv2OSvSc-wJqTEPLdAimmuXtcF4KU7_6B3gvVoUS5aWktUKPvzWZ1aGO-G4NNMRdclvwnshcI_J4ldRiTDFWTSs3ryV_3OvT2h3nEJNU7SJuBmO4S-cwiXla4CqEdm964y3LMm89iQponpkKAMiv8_QhOl4EwXBa1TTx9IU6MkO-9ceSVEUJRQXy2WlRYLi_VdqLrFBkrBoQmyINWiaNuUq-2GxkTejTUoJxHgoUN3y5h5-KcfXGI5oMcbyDZ0ZAmGrjlv3L_2RLRU5ds0xTyRyWENzO04HzMMTqqOT_nXT9ob_LVS3O3cQ6swOZo02fccrFdv9pD0IGZr0Fxi-g4Bcoe9XIEtTfCgKhdZI1WoV8wcMx8cBDL0op0KlbPf8py8Hy6vkyn8N5kRquQ079tfcsaRbRWeS3i46pA9WmwkRxE7r2yeHenC2h1ufpIeeTs2W1ArggTj_e2S1WrE1D_PZQpBducK7cSTdiJ7VIg1ROMEKgLyn6RL-MMoxDWrOTupTbry5tDPadNNdSgo6UBlHuSzjI36gKK_N-I51-nfZ2-SKOGwebp8qJdc6M-mCmD6d_srNnJTIu4wd4kaBudRXUG0L_tMKG4cSPiPIvTwtIPKLzka0Af9AUTKKTaoUlgXAcE3pQQ=w684-h912-no?authuser=0);
+	 background-position: 55% 55%;
+	 background-size: 200%;
+   background-image: url('/images/IMG_8029.JPG');
 }
  .card .back {
 	 position: absolute;
