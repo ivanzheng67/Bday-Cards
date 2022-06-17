@@ -13,13 +13,27 @@ body
 }
 
 .bourbon {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	position: absolute;
-	align-content: center;
+  display: flex;
+  justify-content: right;
+ width: 95%;
 
+
+}
+
+.bourbon img {
+	 width: 60%;
+
+
+}
+
+.border {
+	display: flex;
+  justify-content: center;
+ width: 100%;
+bottom:10%;
+right: 40%;
+ filter: invert(100%) sepia(4%) saturate(372%) 
+ hue-rotate(224deg) brightness(117%) contrast(100%);
 
 }
 
@@ -130,4 +144,13 @@ background-size: 150%;
 .imgset img
 {
     border-radius: 5px;
+}
+
+#text {
+  font-family: 'Cutive Mono', monospace;
+    font-weight: 600;
+  font-size: 3em;
+  color:white;
+ text-align: center;
+ bottom: 100%;
 }
