@@ -9,3 +9,7 @@ Elements you can add:
 - picture inside the card (left side) 
 - greetings
 - custom message
+
+When you clone this repository make sure to include the images in the images folder and change the links of the images accordingly
+
+Have fun!
